@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tapestry&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Stone Paper Scissor</title>
+
+</head>
+
+<body>
+    <h1 class="font text-center heading1">Stone Paper Scissor</h1>
+
+    <div class="container">
+        <div class="card">
+            <div class="head">
+                <h2 class="head-item">You</h2>
+                <h3 class="head-item" id="ppt">0</h3>
+            </div>
+
+            <div class="img-box">
+                <img id="player-img" class="img" src="">
+            </div>
+        </div>
+
+        <strong class="vs font">VS</strong>
+
+        <div class="card">
+            <div class="head"  >
+                <h2 class="head-item">Computer</h2>
+                <h3 class="head-item" id="cpt">0</h3>
+            </div>
+
+            <div class="img-box">
+                <img id="comp-img" class="img" src="">
+            </div>
+        </div>
+    </div>
+
+    <div class="result-container">
+        <div class="result font"></div>
+    </div>
+
+    <div class="btn-container">
+        <img src="images/stoneR.png" alt="" id="stn" class="btn-img">
+
+        <img src="images/paperR.png" alt="" id="ppr" class="btn-img">
+
+        <img src="images/scissorR.png" alt="" id="scr" class="btn-img">
+    </div>
+
+    <script src="logic.js"></script>
+
+</body>
+</html>

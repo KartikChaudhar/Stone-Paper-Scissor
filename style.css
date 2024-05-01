@@ -1,0 +1,190 @@
+/* Land page */
+* {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+
+}
+
+body {
+    background-color: #0c2835;
+}
+
+.font {
+    font-family: 'Pacifico', cursive;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading1 {
+    font-size: 50px;
+}
+
+.vdo {
+    display: block;
+    width: 18vw;
+    margin: 5vh auto;
+}
+
+.play-btn {
+    text-decoration: none;
+    background-color: rgb(107, 235, 52);
+    width: 10vw;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 23px;
+    display: block;
+    border-radius: 30px;
+}
+
+/* sps */
+
+.container {
+    margin: 3vh auto;
+    width: 80vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card {
+    width: 30vw;
+    height: inherit;
+    background-color: transparent;
+}
+
+.head {
+    background-color: #010e15;
+    width: inherit;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+    border-radius: 20px 20px 0 0;
+}
+
+.head-item {
+    margin: 0 5vw;
+    font-size: 22px;
+}
+
+.img-box {
+    width: inherit;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    background-color: #091921;
+}
+
+.vs {
+    font-size: 80px;
+}
+
+.img {
+    width: 300px;
+}
+
+.btn-container {
+    margin: 2vh auto;
+    width: 80vw;
+    height: 14vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-img {
+    width: 120px;
+    cursor: pointer;
+}
+
+
+#ppr {
+    width: 135px;
+    cursor: pointer;
+}
+
+.result {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(107, 235, 52);
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+    /* Landing page */
+
+    .heading1 {
+        margin-top: 2vh;
+        font-size: 30px;
+    }
+
+    .vdo {
+        width: 85vw;
+    }
+
+    .play-btn {
+        width: 35vw;
+    }
+
+    /* Responsive sps html */
+    .container {
+        margin: 2vh auto;
+        width: 80vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card {
+        width: 70vw;
+        height: 30vh;
+    }
+
+    .head {
+        height: 5vh;
+    }
+
+    .head-item {
+        font-size: 18px;
+    }
+
+    .img-box {
+        height: 25vh;
+    }
+
+    .vs {
+        font-size: 30px;
+    }
+
+    .img {
+        width: 180px;
+    }
+
+    .btn-container {
+        height: 8vh;
+        margin: 2.5vh auto;
+    }
+
+    .btn-img {
+        width: 90px;
+    }
+
+    #ppr {
+        width: 110px;
+    }
+
+    .result {
+        font-size: 25px;
+    }
+
+}
